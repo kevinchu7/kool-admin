@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.kool</groupId>
+        <artifactId>kool-admin</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <artifactId>kool-modules-biz</artifactId>
+    <packaging>jar</packaging>
+    <name>kool-modules-biz</name>
+    <description>用户业务模块</description>
+
+    <dependencies>
+        <!-- 系统内置模块 -->
+        <dependency>
+            <groupId>com.kool</groupId>
+            <artifactId>kool-system</artifactId>
+        </dependency>
+    </dependencies>
+</project>
