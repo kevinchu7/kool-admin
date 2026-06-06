@@ -21,6 +21,9 @@ out/
 .vscode/
 *.code-workspace
 
+# ==================== AI — Claude Code ====================
+.claude/
+
 # ==================== Java ====================
 *.class
 *.jar
