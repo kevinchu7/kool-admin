@@ -1,16 +1,28 @@
-# Compiled class file
+# ==================== Maven ====================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!/.mvn/wrapper/maven-wrapper.properties
+dependency-reduced-pom.xml
+
+# ==================== IDE — IntelliJ IDEA ====================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ==================== IDE — Eclipse ====================
+.classpath
+.project
+.settings/
+.factorypath
+
+# ==================== IDE — VS Code ====================
+.vscode/
+*.code-workspace
+
+# ==================== Java ====================
 *.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
 *.nar
@@ -19,6 +31,47 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# ==================== Lombok ====================
+.apt_generated/
+.apt_generated_test/
+
+# ==================== Logs ====================
+*.log
+logs/
+
+# ==================== OS ====================
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+# ==================== Editor ====================
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+.attach_pid*
+
+# ==================== JVM ====================
 hs_err_pid*
 replay_pid*
+
+# ==================== Environment / Secrets ====================
+.env
+.env.local
+.env.*.local
+*.local.yml
+*.local.yaml
+application-local.yml
+application-local.yaml
+application-dev.yml
+application-dev.yaml
+
+# ==================== Node.js (if front-end tooling is added) ====================
+node_modules/
+.npm/
+dist/
